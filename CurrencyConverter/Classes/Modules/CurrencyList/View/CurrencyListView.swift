@@ -115,6 +115,7 @@ class CurrencyListView: UIViewController, CurrencyListViewProtocol, UITextFieldD
     }
 
     public func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        [0][1]
         self.isSearch = false
         self.listTableView.reloadData()
         searchBar.resignFirstResponder()
